@@ -1,0 +1,27 @@
+project/
+│
+├── main.py                 # Entry point of the application
+├── requirements.txt        # Python dependencies
+├── README.md               # Documentation
+├── folder_structure.txt    # This file
+│
+└── src/
+    ├── __init__.py
+    │
+    ├── config.py           # Configuration settings (paths, voice settings)
+    │
+    ├── core/               # Core logic
+    │   ├── __init__.py
+    │   └── processor.py    # Command processing engine
+    │
+    ├── actions/            # Action executors
+    │   ├── __init__.py
+    │   ├── app_ops.py      # Application operations (open apps, windows)
+    │   ├── browser_ops.py  # Web browser operations
+    │   ├── input_ops.py    # Mouse and Keyboard simulation
+    │   └── system_ops.py   # System level operations (volume, power)
+    │
+    └── utils/              # Utilities
+        ├── __init__.py
+        ├── listener.py     # Speech recognition wrapper
+        └── speaker.py      # Text-to-speech wrapper

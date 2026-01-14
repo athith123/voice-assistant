@@ -1,0 +1,7 @@
+SpeechRecognition
+pyttsx3
+pyautogui
+keyboard
+pyaudio
+screen-brightness-control
+pypiwin32
